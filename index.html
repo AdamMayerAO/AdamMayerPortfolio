@@ -1,12 +1,104 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>repl.it</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
+</head>
+<body>
+<header>
+  <div class = "clouds"> <h1>Adam Mayer</h1>
+      <h2> Spiritual Producer and Software Engineer </h2>
+  </div>
+  <nav> <ul id = "menu">
+    <li> <a href = "#home">Home</a></li>
+    <li> <a href = "#about">About</a></li>
+    <li> <a href = "#portfolio">Portfolio</a></li>
+    <li> <a href = "#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section>
+   <div>
+        <img src ="images/Adam.png" alt="Picture of Adam Mayer" class = "image-enhanced">
+  </div>
+  <h3> Hi! I am Adam Mayer </h3>
+    <div class = "group">
+      <div class = "item">
+        <h3> Skills</h3>
+        <ul class = "no-indent">
+          <li>Creative Designer</li>
+          <li>Fluent in English and Hebrew</li>
+          <li> JavaScript, HTML, CSS, and more to come</li>
+        </ul>
+      </div>
+      <div class ="item">
+        <h3> Location</h3>
+        <p> Philadelphia <br>City of Brotherly Love <br>
+        <img src = "images/love.jpg" class = "scale"> 
+        </p>
+      </div>
+      <div class = "item">
+        <h3> What Makes Me Special</h3>
+        <ul class = "no-indent">
+          <li>I am a Rabbi and hold a Master's Degree in Jewish Education</li>
+          <li>Beginner guitar player!</li>
+          <li>Rock Climbing and Bouldering instructor</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2> Portfolio</h2>
+    <section> <!-- projects-->
+      <h3> Check out what I am working on!</h3>
+        <ol>
+          <li> Rappers and Rabbis</li>
+            <ul> 
+              <li>
+                <a href = "rappersandrabbis.com">Rappers and Rabbis Website</a> 
+              </li>
+              <li>I am involved as an educator, not as a programmer. (just a placeholder for now)</li>
+            </ul>
+          <li> Project 2</li>
+            <ul> 
+                <li>This is it</li>
+                <li>Here is a link</li>
+            </ul>
+        </ol>
+    </section>
+  </section>
+  <section>
+    <h2>I would love to hear from you!</h2>
+    <div class="group">
+      <div class="item-double">
+        <form action="https://formspree.io/r.adammayer@gmail.com" method="post">
+          <label for="user-name">Name:</label>
+          <input id="user-name" type="text" name="name">
+
+          <label for="user-email">Email:</label>
+          <input id="user-email" type="text" name="email">
+
+          <label for="user-message">Message:</label>
+          <textarea id="user-message" name="message" maxlength="500"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div class="item">
+        <img src="images/outdoors.jpeg" class="contact-image">
+      </div>
+    </div>
+   </section>
+</main>
     <script src="script.js"></script>
-  </body>
+</body>
+<footer>
+    <h4>Be In Touch:</h4>
+    Email: <a href="mailto: r.adammayer@gmail.com" target="_top">r.adammayer@gmail.com </a><br>
+    <a href = "http://www.linkedin.com/in/rabbiadammayer">Find me on LinkedIn</a>
+</footer>
 </html>

@@ -1,0 +1,80 @@
+header{
+background-image: url(images/BlueRidge.jpeg);
+  margin-bottom: 0px;
+  text-align: left;
+}
+header h1{
+  padding: 10px 0px 0 10px;
+}
+header h2{
+  padding: 0px 0 0 10px;
+}
+header nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+header nav ul{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0%;
+}
+header nav ul li{
+  list-style-type: none;
+}
+
+header nav ul li a{
+  padding: 0 20px 0 0;
+  a: hover{hotpink}
+}
+
+.image-enhanced{
+width: 100%;
+border-radius: 5%;
+}
+.no-indent{
+  padding-left: 2px;
+}
+.scale{
+  max-width: 100%;
+}
+.group{
+  display: flex;
+  flex-direction: column;
+}
+.item{
+  flex: 1;
+  margin: 10px;
+}
+.item-double{
+  flex: 2;
+  margin: 5px;
+}
+@media all and (min-width: 300px){
+  section, h1{
+    padding: 0 10%;
+  }
+  .group{
+  flex-direction: row;
+  }
+}
+a:hover{
+  color: hotpink
+}
+form {
+  padding-right: 6px;
+  /* Fixed small sizing issue on the right */
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
+footer{
+  padding-left: 10px;
+}
