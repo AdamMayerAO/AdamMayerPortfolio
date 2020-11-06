@@ -54,8 +54,9 @@ border-radius: 5%;
 }
 
 /* ---  (Desktop) Groups & Items --- */
-@media all and (min-width: 300px){
-  section, h1{
+@media all and (min-width: 700px){
+  header section h1{
+    display: flex; 
     padding: 0 10%;
   }
   .group{
